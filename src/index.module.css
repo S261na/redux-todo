@@ -1,0 +1,22 @@
+/* модульный css -  это когда создается класс помимо того что указывается класс он добавляет числа делая его уникальным */
+.list {
+  list-style-type: none;
+}
+
+.list__item {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.completed {
+  color: rgb(34, 64, 136);
+  /* зачеркивание */
+  text-decoration: line-through;
+}
+
+.undone {
+  color: rgb(0, 110, 255);
+}
+/* не завершеная задача  */
